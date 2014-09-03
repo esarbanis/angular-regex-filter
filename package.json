@@ -1,0 +1,26 @@
+{
+    "name": "angular-regex-filter",
+    "version": "0.0.1",
+    "description": "An AngularJS filter for searching by a regular expression.",
+    "author": "Efthymis Sarbanis <e.sarbanis@gmail.com>",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/esarbanis/angular-regex-filter/blob/master/LICENSE"
+        }
+    ],
+    "main": "./dist/angular-regex-filter.js",
+    "homepage": "https://github.com/esarbanis/angular-regex-filter",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/esarbanis/angular-regex-filter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/esarbanis/angular-regex-filter/issues"
+    },
+    "devDependencies": {
+        "gulp": "^3.8.7",
+        "gulp-clean": "^0.3.1",
+        "gulp-uglify": "^0.3.2"
+    }
+}
