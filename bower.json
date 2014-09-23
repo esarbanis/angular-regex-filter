@@ -1,16 +1,27 @@
 {
-    "name": "angular-regex-filter",
-    "version": "0.0.1",
-    "homepage": "https://github.com/esarbanis/angular-regex-filter",
-    "authors": [
-        "Efthymis Sarbanis <e.sarbanis@gmail.com>"
-    ],
-    "dependencies": {
-        "angular": "~1.3"
-    },
-    "license": "MIT",
-    "ignore": [
-        "**/.*",
-        "node_modules"
-    ]
+  "name": "angular-regex-filter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/esarbanis/angular-regex-filter",
+  "authors": [
+    "Efthymis Sarbanis <e.sarbanis@gmail.com>"
+  ],
+  "keywords": [
+    "angularjs",
+    "regex",
+    "filter"
+  ],
+  "dependencies": {
+    "angular": "~1.3"
+  },
+  "devDependencies": {
+    "angular": "~1.3",
+    "angular-mocks": "~1.3"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
 }
