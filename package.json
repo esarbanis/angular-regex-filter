@@ -1,6 +1,6 @@
 {
     "name": "angular-regex-filter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "An AngularJS filter for searching by a regular expression.",
     "author": "Efthymis Sarbanis <e.sarbanis@gmail.com>",
     "licenses": [
