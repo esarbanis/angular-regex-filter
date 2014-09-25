@@ -42,7 +42,12 @@
 <h3>
 <a name="use-cases" class="anchor" href="#use-cases"><span class="octicon octicon-link"></span></a>Use cases</h3>
 
-<pre><code>expect(regex(items, '').length).toBe(4);
+<pre><code>var items = ['hook', 
+            {name: 'peter', surname: 'pan', address: {country: 'neverland', number: '12'}},
+             ['wendy'], 
+             121242];
+
+expect(regex(items, '').length).toBe(4);
 expect(regex(items, '.*oo.*').length).toBe(1);
 expect(regex(items, '.*oo.*')[0]).toBe('hook');
 expect(regex(items, '.*pa.*').length).toBe(1);
