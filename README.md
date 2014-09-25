@@ -35,7 +35,7 @@ Include `src/angular-regex-filter.js` or `dist/angular-regex-filter.js` to your 
     
 Don't forget to add `regex.filter` module to app's dependecies.
 
-## Test && Build
+## Test and Build
 
     $ npm install
     $ bower install
