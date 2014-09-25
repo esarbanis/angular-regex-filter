@@ -5,6 +5,11 @@ An AngularJS filter for searching by a regular expression
 
 ### Use cases
 
+    var items = ['hook', 
+                {name: 'peter', surname: 'pan', address: {country: 'neverland', number: '12'}},
+                 ['wendy'], 
+                 121242];
+                 
     expect(regex(items, '').length).toBe(4);
     expect(regex(items, '.*oo.*').length).toBe(1);
     expect(regex(items, '.*oo.*')[0]).toBe('hook');
